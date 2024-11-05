@@ -1,0 +1,137 @@
+@media only screen and (max-width: 46.1875em) {
+    /* mobile */
+    .hide-on-mobile {
+        display: none !important;
+    }
+
+    #header .search {
+        display: block;
+    }
+
+    #content {
+        margin: 12px;
+    }
+
+    #content .grid-product {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    #header .sortbar--mobile {
+        display: block;
+        top: 86px;
+    }
+
+    #footer .shipping {
+        grid-template-columns: 1fr;
+    }
+
+    #footer .shipping__icon {
+        width: 80px;
+    }
+
+    #footer .shipping__content {
+        width: 300px;
+    }
+
+    #footer .footer_main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #footer {
+        margin: 24px;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* tablet */
+    .hide-on-tablet {
+        display: none !important;
+    }
+
+    /* .shop-details {
+        display: flex;
+    } */
+
+    #header .searchbar {
+        flex: 1;
+    }
+
+    #content .grid-product {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    #header .sortbar--mobile {
+        display: block;
+        top: 78px;
+    }
+
+    #footer .footer_main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 63.9375em) {
+    /* mobile + tablet */
+
+    .hide-on-mobile-tablet {
+        display: none !important;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    #content {
+        padding: 130px 0;
+    }
+
+    #content .grid-store {
+        grid-template-columns: 1fr;
+    }
+
+    #content .products {
+        grid-template-columns: 1fr;
+    }
+
+    #header .menu {
+        display: flex;
+    }
+
+    #header .header-top {
+        margin: 14px 6px 20px;
+    }
+
+    #header .header-top-left {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* Tablet - PC low resolution (740px -  1023px) */
+    .auto-fit {
+        width: 644px;
+    }
+}
+
+@media only screen and (min-width: 64em) and (max-width: 77.4375em) {
+    /* PC low resolution (1024px - 1239px) */
+    .auto-fit {
+        width: 984px;
+    }
+
+    .hide-on-pc-low-resolution {
+        display: none !important;
+    }
+
+    #content .grid-product {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+}

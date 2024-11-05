@@ -1,0 +1,2901 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shopee Mall</title>
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/icon_favicon_1_32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="assets/icon_favicon_1_96.png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        />
+        <link rel="stylesheet" href="assets/css/base.css" />
+        <link rel="stylesheet" href="assets/css/mall.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+    </head>
+    <body>
+        <header id="header">
+            <div class="auto-fit">
+                <!-- navbar -->
+                <nav class="navbar hide-on-mobile-tablet">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a
+                                href=""
+                                class="navbar__item-link navbar__item-link--separate"
+                            >
+                                Trang chủ Shopee
+                            </a>
+                        </li>
+                        <li class="navbar__item navbar__item--showdownload">
+                            <span
+                                class="navbar__item-link navbar__item-link--separate"
+                            >
+                                Tải ứng dụng
+                            </span>
+                            <div class="download-app">
+                                <img
+                                    src="assets/img/header/qrcode.png"
+                                    alt=""
+                                />
+                                <div class="download-app__other">
+                                    <a href="">
+                                        <img
+                                            src="assets/img/header/appstore.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a href="">
+                                        <img
+                                            src="assets/img/header/googleplay.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                    <a href="">
+                                        <img
+                                            src="assets/img/header/appgallery.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <span href="" class="navbar__item-nolink">
+                                Kết nối
+                            </span>
+                            <a href="">
+                                <svg
+                                    class="navbar__item-icon--facebook"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="#ffffff"
+                                >
+                                    <path
+                                        d="M12.001 2C6.47813 2 2.00098 6.47715 2.00098 12C2.00098 16.9913 5.65783 21.1283 10.4385 21.8785V14.8906H7.89941V12H10.4385V9.79688C10.4385 7.29063 11.9314 5.90625 14.2156 5.90625C15.3097 5.90625 16.4541 6.10156 16.4541 6.10156V8.5625H15.1931C13.9509 8.5625 13.5635 9.33334 13.5635 10.1242V12H16.3369L15.8936 14.8906H13.5635V21.8785C18.3441 21.1283 22.001 16.9913 22.001 12C22.001 6.47715 17.5238 2 12.001 2Z"
+                                    ></path>
+                                </svg>
+                            </a>
+                            <a href="">
+                                <svg
+                                    class="navbar__item-icon--instagram"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="#ffffff"
+                                >
+                                    <path
+                                        d="M13.0281 2.00073C14.1535 2.00259 14.7238 2.00855 15.2166 2.02322L15.4107 2.02956C15.6349 2.03753 15.8561 2.04753 16.1228 2.06003C17.1869 2.1092 17.9128 2.27753 18.5503 2.52503C19.2094 2.7792 19.7661 3.12253 20.3219 3.67837C20.8769 4.2342 21.2203 4.79253 21.4753 5.45003C21.7219 6.0867 21.8903 6.81337 21.9403 7.87753C21.9522 8.1442 21.9618 8.3654 21.9697 8.58964L21.976 8.78373C21.9906 9.27647 21.9973 9.84686 21.9994 10.9723L22.0002 11.7179C22.0003 11.809 22.0003 11.903 22.0003 12L22.0002 12.2821L21.9996 13.0278C21.9977 14.1532 21.9918 14.7236 21.9771 15.2163L21.9707 15.4104C21.9628 15.6347 21.9528 15.8559 21.9403 16.1225C21.8911 17.1867 21.7219 17.9125 21.4753 18.55C21.2211 19.2092 20.8769 19.7659 20.3219 20.3217C19.7661 20.8767 19.2069 21.22 18.5503 21.475C17.9128 21.7217 17.1869 21.89 16.1228 21.94C15.8561 21.9519 15.6349 21.9616 15.4107 21.9694L15.2166 21.9757C14.7238 21.9904 14.1535 21.997 13.0281 21.9992L12.2824 22C12.1913 22 12.0973 22 12.0003 22L11.7182 22L10.9725 21.9993C9.8471 21.9975 9.27672 21.9915 8.78397 21.9768L8.58989 21.9705C8.36564 21.9625 8.14444 21.9525 7.87778 21.94C6.81361 21.8909 6.08861 21.7217 5.45028 21.475C4.79194 21.2209 4.23444 20.8767 3.67861 20.3217C3.12278 19.7659 2.78028 19.2067 2.52528 18.55C2.27778 17.9125 2.11028 17.1867 2.06028 16.1225C2.0484 15.8559 2.03871 15.6347 2.03086 15.4104L2.02457 15.2163C2.00994 14.7236 2.00327 14.1532 2.00111 13.0278L2.00098 10.9723C2.00284 9.84686 2.00879 9.27647 2.02346 8.78373L2.02981 8.58964C2.03778 8.3654 2.04778 8.1442 2.06028 7.87753C2.10944 6.81253 2.27778 6.08753 2.52528 5.45003C2.77944 4.7917 3.12278 4.2342 3.67861 3.67837C4.23444 3.12253 4.79278 2.78003 5.45028 2.52503C6.08778 2.27753 6.81278 2.11003 7.87778 2.06003C8.14444 2.04816 8.36564 2.03847 8.58989 2.03062L8.78397 2.02433C9.27672 2.00969 9.8471 2.00302 10.9725 2.00086L13.0281 2.00073ZM12.0003 7.00003C9.23738 7.00003 7.00028 9.23956 7.00028 12C7.00028 14.7629 9.23981 17 12.0003 17C14.7632 17 17.0003 14.7605 17.0003 12C17.0003 9.23713 14.7607 7.00003 12.0003 7.00003ZM12.0003 9.00003C13.6572 9.00003 15.0003 10.3427 15.0003 12C15.0003 13.6569 13.6576 15 12.0003 15C10.3434 15 9.00028 13.6574 9.00028 12C9.00028 10.3431 10.3429 9.00003 12.0003 9.00003ZM17.2503 5.50003C16.561 5.50003 16.0003 6.05994 16.0003 6.74918C16.0003 7.43843 16.5602 7.9992 17.2503 7.9992C17.9395 7.9992 18.5003 7.4393 18.5003 6.74918C18.5003 6.05994 17.9386 5.49917 17.2503 5.50003Z"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a
+                                href=""
+                                class="navbar__item-link navbar__item-link--separate"
+                            >
+                                <svg
+                                    class="navbar__item-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="#ffffff"
+                                >
+                                    <path
+                                        d="M22 20H2V18H3V11.0314C3 6.04348 7.02944 2 12 2C16.9706 2 21 6.04348 21 11.0314V18H22V20ZM5 18H19V11.0314C19 7.14806 15.866 4 12 4C8.13401 4 5 7.14806 5 11.0314V18ZM9.5 21H14.5C14.5 22.3807 13.3807 23.5 12 23.5C10.6193 23.5 9.5 22.3807 9.5 21Z"
+                                    ></path>
+                                </svg>
+                                <span>Thông báo</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a
+                                href=""
+                                class="navbar__item-link navbar__item-link--separate"
+                            >
+                                <svg
+                                    class="navbar__item-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="#ffffff"
+                                >
+                                    <path
+                                        d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 15H13V17H11V15ZM13 13.3551V14H11V12.5C11 11.9477 11.4477 11.5 12 11.5C12.8284 11.5 13.5 10.8284 13.5 10C13.5 9.17157 12.8284 8.5 12 8.5C11.2723 8.5 10.6656 9.01823 10.5288 9.70577L8.56731 9.31346C8.88637 7.70919 10.302 6.5 12 6.5C13.933 6.5 15.5 8.067 15.5 10C15.5 11.5855 14.4457 12.9248 13 13.3551Z"
+                                    ></path>
+                                </svg>
+                                <span>Hỗ trợ</span>
+                            </a>
+                        </li>
+                        <li class="navbar__item navbar__item--showlanguage">
+                            <div href="" class="navbar__item-link">
+                                <svg
+                                    class="navbar__item-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="#ffffff"
+                                >
+                                    <path
+                                        d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z"
+                                    ></path>
+                                </svg>
+                                <span>Ngôn ngữ</span>
+                            </div>
+                            <div class="language">
+                                <span class="language__vn">Tiếng Việt</span>
+                                <span class="language__eng">English</span>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__item-link">
+                                <span>Minh Hiếu</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- navbar - end -->
+                <!-- header-top -->
+                <section class="header-top">
+                    <!-- menu--mobile-tablet -->
+                    <div class="header-top-left">
+                        <div class="menu">
+                            <svg
+                                class="menu__icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="search">
+                            <svg
+                                class="search__icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="size-6"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- menu--mobile-tablet - end -->
+                    <!-- shopee-logo -->
+                    <div class="shopee-logo hide-on-tablet">
+                        <a href="" class="shopee-logo__link">
+                            <svg
+                                class="shopee-logo__svg"
+                                enable-background="new 0 0 48 48"
+                                viewBox="0 0 48 48"
+                                x="0"
+                                y="0"
+                            >
+                                <path
+                                    fill="#ffffff"
+                                    d="M44.4,11.5C44.4,11.5,44.4,11.5,44.4,11.5l-9.9,0C34.3,5.1,29.7,0,24,0S13.7,5.1,13.5,11.5H3.6v0c-0.5,0-0.9,0.4-0.9,0.9c0,0,0,0,0,0.1h0l1.4,30.9c0,0.1,0,0.2,0,0.3c0,0,0,0,0,0.1l0,0.1l0,0c0.2,2.2,1.8,3.9,3.9,4l0,0h31.4c0,0,0,0,0,0c0,0,0,0,0,0h0.1l0,0c2.2-0.1,3.9-1.8,4.1-4l0,0l0,0c0,0,0,0,0-0.1c0-0.1,0-0.1,0-0.2l1.5-31h0c0,0,0,0,0,0C45.3,11.9,44.9,11.5,44.4,11.5z M24,2.8c4.1,0,7.5,3.9,7.6,8.7H16.4C16.5,6.7,19.9,2.8,24,2.8z M31.9,35.8c-0.3,2.3-1.7,4.2-3.9,5.1c-1.2,0.5-2.8,0.8-4.1,0.7c-2-0.1-3.9-0.6-5.6-1.4c-0.6-0.3-1.6-1-2.3-1.5c-0.2-0.1-0.2-0.3-0.1-0.5c0.2-0.2,0.8-1.2,0.9-1.3c0.1-0.2,0.4-0.2,0.6-0.1c0,0,0.2,0.2,0.3,0.2c1.7,1.3,3.8,2.3,6.2,2.4c3,0,5.2-1.4,5.6-3.5c0.4-2.3-1.4-4.3-4.9-5.4c-1.1-0.3-3.9-1.5-4.5-1.8c-2.5-1.4-3.6-3.3-3.4-5.6c0.2-3.2,3.2-5.6,7-5.6c1.8,0,3.5,0.4,5,1c0.6,0.2,1.6,0.8,2,1.1c0.3,0.2,0.2,0.4,0.1,0.6c-0.2,0.2-0.6,0.9-0.8,1.2c-0.1,0.2-0.3,0.2-0.5,0.1c-1.9-1.3-3.9-1.7-5.7-1.8c-2.6,0.1-4.6,1.6-4.7,3.7c0,1.9,1.4,3.3,4.5,4.3C29.9,29.6,32.3,32,31.9,35.8z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a
+                            href=""
+                            class="shopee-logo__link shopee-logo--separate"
+                        >
+                            <svg
+                                viewBox="0 0 220 44"
+                                class="shopee-logo__svg--text"
+                            >
+                                <g
+                                    fill="#ffffff"
+                                    fill-rule="evenodd"
+                                    transform="translate(0 -.098)"
+                                >
+                                    <path
+                                        d="M195.78 30.899a10.49 10.49 0 0 1-6.81 2.484c-5.732 0-10.378-4.53-10.378-10.12 0-5.59 4.646-10.12 10.378-10.12 2.606 0 4.988.937 6.81 2.484.023-1.13.882-1.942 1.938-1.942 1.07 0 1.937.834 1.937 1.989v15.73c0 1.154-.868 1.98-1.937 1.98-1.07 0-1.938-.826-1.938-1.98zm-.062-7.643c0-3.588-3.024-6.497-6.755-6.497-3.73 0-6.754 2.91-6.754 6.497 0 3.588 3.024 6.498 6.754 6.498 3.73 0 6.755-2.91 6.755-6.498zM202.9 25.388V3.558c0-1.07.855-1.938 1.911-1.938s1.912.867 1.912 1.938v22.069c0 .043-.002.087-.004.13-.018 2.461.369 3.293 2.029 3.768 1.016.291 1.553 1.396 1.266 2.426-.237.854-.77 1.377-1.605 1.377h-.18c-.171 0-.347-.024-.52-.073-2.735-.783-4.904-2.78-4.81-7.867zM212.266 25.535V3.558c0-1.07.856-1.938 1.912-1.938s1.912.867 1.912 1.938V25.825c0 .082-.005.163-.015.242-.06 2.212.146 2.858 2.325 3.31 1.034.215 1.632 1.26 1.42 2.309-.186.916-.914 1.527-1.803 1.527-.127 0-.256-.013-.386-.04-2.882-.599-5.553-2.131-5.365-7.638zM97.886 24.307c.095.561.266 1.256.563 2.09 1.317 3.309 5.375 3.3 5.986 3.309 1.753.025 3.396-.331 5.011-1.223.906-.5 1.985-.412 2.556.405.572.818.395 2.028-.723 2.71-2.208 1.348-4.574 1.758-7.01 1.708-3.798-.078-7.4-1.591-9.01-5.204-.733-1.644-1.158-3.561-1.027-5.376.058-2.086.844-3.867 1.047-4.334.928-2.127 2.557-3.814 4.725-4.702 2.646-1.082 6.008-.916 8.53.43 2.936 1.566 4.571 5.136 4.41 8.384-.049.975-.799 1.803-1.817 1.803zm.412-3.333h10.906c-.86-4.592-5.845-4.37-5.845-4.37-2.52.098-4.207 1.555-5.061 4.37zM119.618 24.354c.095.561.266 1.257.563 2.09 1.318 3.31 5.376 3.3 5.986 3.31 1.753.024 3.396-.332 5.012-1.223.905-.5 1.984-.413 2.556.405.571.817.394 2.027-.723 2.71-2.209 1.347-4.574 1.758-7.011 1.707-3.797-.077-7.4-1.591-9.01-5.204-.732-1.644-1.158-3.56-1.026-5.376.058-2.085.843-3.867 1.047-4.333.928-2.127 2.557-3.815 4.725-4.702 2.645-1.083 6.007-.916 8.53.43 2.936 1.565 4.57 5.136 4.409 8.383-.049.976-.798 1.803-1.816 1.803zm.412-3.333h10.907c-.86-4.592-5.846-4.37-5.846-4.37-2.52.099-4.206 1.555-5.06 4.37zM74.109 30.871v11.367c0 2.34-3.632 2.337-3.632 0V23.806a10.064 10.064 0 0 1 0-1.329v-7.575c0-2.34 3.632-2.337 3.632 0v.51a10.537 10.537 0 0 1 6.768-2.434c5.756 0 10.422 4.55 10.422 10.164 0 5.613-4.666 10.164-10.422 10.164-2.584 0-4.947-.917-6.768-2.435zm0-7.207c.28 3.356 3.2 5.997 6.762 5.997 3.746 0 6.784-2.922 6.784-6.526 0-3.604-3.038-6.526-6.784-6.526-3.562 0-6.483 2.64-6.762 5.997zM57.09 33.306c-5.757 0-10.423-4.55-10.423-10.164s4.666-10.164 10.422-10.164 10.422 4.55 10.422 10.164c0 5.613-4.666 10.164-10.422 10.164zm-.007-3.645c3.747 0 6.784-2.922 6.784-6.526 0-3.604-3.037-6.526-6.784-6.526s-6.784 2.922-6.784 6.526c0 3.604 3.037 6.526 6.784 6.526zM28.69 15.026V2.111c0-2.337-3.631-2.34-3.631 0v29.471c0 2.337 3.631 2.341 3.631 0v-9.695c.015.364.018-.522.273-1.22.953-3.151 3.823-3.751 5.115-3.77 3.696 0 5.652 1.803 5.868 5.408V31.582c0 2.337 3.627 2.341 3.627 0v-6.126c0-1.753.106-3.676 0-4.789-.584-6.843-9.5-9.68-14.455-5.979a9.572 9.572 0 0 0-.428.338zM4.294 2.62c-2.156 1.909-3.15 5.385-2.369 8.155.678 2.4 2.66 4.27 4.803 5.323 2.222 1.09 4.676 1.673 6.564 2.505 1.32.59 2.456 1.153 3.595 2.305 1.138 1.152 1.62 2.586 1.587 3.65-.033 1.085-.441 2.182-1.023 2.869-1.487 1.755-3.889 2.414-6.106 2.303-1.572-.078-3.29-.422-4.692-1.016-1.42-.601-2.671-1.582-3.921-2.438-.807-.553-1.99-.282-2.526.631-.468.811-.098 1.92.693 2.505 2.376 1.757 4.89 3.1 7.808 3.631 2.918.532 5.463.41 8.09-.741 2.462-1.08 4.468-3.198 5.07-5.862.627-2.775-.09-5.41-1.923-7.58-2.21-2.618-5.47-3.626-8.54-4.733a24.208 24.208 0 0 1-3.295-1.423c-1.908-.973-2.883-2.363-2.75-4.528.158-2.578 2.278-3.913 4.906-4.266 2.628-.353 5.337.53 7.25 1.864 1.833 1.194 3.93-1.64 1.833-3.136C15.15-.207 8.288-.914 4.294 2.621z"
+                                    ></path>
+                                    <path
+                                        d="M171.002 3.338c-1.545 4.329-5.841 7.27-10.7 7.186-4.8-.084-8.954-3.103-10.394-7.412-.33-.983-1.407-1.519-2.408-1.197a1.865 1.865 0 0 0-1.217 2.364c1.946 5.823 7.526 9.879 13.954 9.991 6.505.114 12.277-3.84 14.365-9.69a1.866 1.866 0 0 0-1.17-2.39c-.993-.342-2.082.171-2.43 1.148z"
+                                        fill-rule="nonzero"
+                                    ></path>
+                                    <path
+                                        d="M173.191 1.8a1.98 1.98 0 0 1 1.98 1.98v27.546a1.98 1.98 0 1 1-3.96 0V3.78a1.98 1.98 0 0 1 1.98-1.98zM147.807 1.8a1.98 1.98 0 0 1 1.98 1.98v27.546a1.98 1.98 0 1 1-3.96 0V3.78a1.98 1.98 0 0 1 1.98-1.98z"
+                                    ></path>
+                                    <circle
+                                        cx="173.101"
+                                        cy="3.691"
+                                        r="2.07"
+                                    ></circle>
+                                    <circle
+                                        cx="147.897"
+                                        cy="3.691"
+                                        r="2.07"
+                                    ></circle>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- shopee-logo - end -->
+                    <!-- searchbar -->
+                    <div class="searchbar hide-on-mobile">
+                        <div class="searchbar__search">
+                            <input
+                                placeholder="Tìm trong Shopee Mall"
+                                type="text"
+                                class="searchbar__input"
+                            />
+                            <div class="searchbar__history">
+                                <h4 class="searchbar__history-heading">
+                                    Lịch sử tìm kiếm
+                                </h4>
+                                <ul class="searchbar__history-list">
+                                    <li class="searchbar__history-item">
+                                        <a
+                                            href=""
+                                            class="searchbar__history-item-link"
+                                            >rubik</a
+                                        >
+                                    </li>
+                                    <li class="searchbar__history-item">
+                                        <a
+                                            href=""
+                                            class="searchbar__history-item-link"
+                                            >giày thể thao</a
+                                        >
+                                    </li>
+                                    <li class="searchbar__history-item">
+                                        <a
+                                            href=""
+                                            class="searchbar__history-item-link"
+                                            >balo laptop</a
+                                        >
+                                    </li>
+                                    <li class="searchbar__history-item">
+                                        <a
+                                            href=""
+                                            class="searchbar__history-item-link"
+                                            >figure</a
+                                        >
+                                    </li>
+                                    <li class="searchbar__history-item">
+                                        <a
+                                            href=""
+                                            class="searchbar__history-item-link"
+                                            >sticker</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="searchbar__selector">
+                            <select name="" id="customSelect">
+                                <option value="Trong Shop này">
+                                    Trong Shop này
+                                </option>
+                                <option value="Tại Shopee Mall">
+                                    Tại Shopee Mall
+                                </option>
+                            </select>
+                        </div>
+                        <button class="searchbar__btn">
+                            <svg
+                                class="searchbar__btn-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="size-6"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                                />
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- searchbar - end -->
+                    <!-- cart -->
+                    <div class="cart">
+                        <a href="" class="cart__link">
+                            <svg
+                                class="cart__svg"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="#ffffff"
+                            >
+                                <path
+                                    d="M4.00488 16V4H2.00488V2H5.00488C5.55717 2 6.00488 2.44772 6.00488 3V15H18.4433L20.4433 7H8.00488V5H21.7241C22.2764 5 22.7241 5.44772 22.7241 6C22.7241 6.08176 22.7141 6.16322 22.6942 6.24254L20.1942 16.2425C20.083 16.6877 19.683 17 19.2241 17H5.00488C4.4526 17 4.00488 16.5523 4.00488 16ZM6.00488 23C4.90031 23 4.00488 22.1046 4.00488 21C4.00488 19.8954 4.90031 19 6.00488 19C7.10945 19 8.00488 19.8954 8.00488 21C8.00488 22.1046 7.10945 23 6.00488 23ZM18.0049 23C16.9003 23 16.0049 22.1046 16.0049 21C16.0049 19.8954 16.9003 19 18.0049 19C19.1095 19 20.0049 19.8954 20.0049 21C20.0049 22.1046 19.1095 23 18.0049 23Z"
+                                ></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- cart - end -->
+                </section>
+                <!-- header-top - end -->
+                <!-- sortbar -->
+                <section class="sortbar--mobile">
+                    <ul class="sortbar__list">
+                        <li class="sortbar__item">
+                            <button class="sortbar__item-btn">Phổ biến</button>
+                        </li>
+                        <li class="sortbar__item">
+                            <button class="sortbar__item-btn">Mới nhất</button>
+                        </li>
+                        <li class="sortbar__item">
+                            <button class="sortbar__item-btn">Bán chạy</button>
+                        </li>
+                        <li class="sortbar__item">
+                            <button class="sortbar__item-btn">Giá</button>
+                        </li>
+                    </ul>
+                </section>
+                <!-- sortbar - end -->
+            </div>
+        </header>
+
+        <main id="content">
+            <div class="auto-fit">
+                <!-- <section class="grid-store">
+                <div
+                    class="store"
+                    style="
+                        background-image: url(assets/img/content/f168f81f1c25fde98beb3b900f97e415_tn.webp);
+                    "
+                >
+                    <div class="store__logo"></div>
+                    <div class="store__title"></div>
+                    <div class="store__mall"></div>
+                    <button class="store__follow"><span>Theo Dõi</span></button>
+                    <button class="store__chat">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                        >
+                            <path
+                                d="M10 3H14C18.4183 3 22 6.58172 22 11C22 15.4183 18.4183 19 14 19V22.5C9 20.5 2 17.5 2 11C2 6.58172 5.58172 3 10 3ZM12 17H14C17.3137 17 20 14.3137 20 11C20 7.68629 17.3137 5 14 5H10C6.68629 5 4 7.68629 4 11C4 14.61 6.46208 16.9656 12 19.4798V17Z"
+                            ></path>
+                        </svg>
+                        <span>Chat</span>
+                    </button>
+                </div>
+                <section class="shop-details">
+                    <div class="shop-info hide-on-mobile"></div>
+                    <div class="social-stats hide-on-mobile"></div>
+                </section>
+            </section> -->
+                <nav></nav>
+                <div class="products">
+                    <nav class="category hide-on-mobile-tablet">
+                        <div class="category__title">
+                            <svg
+                                class="category__title-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="#000"
+                            >
+                                <path
+                                    d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z"
+                                ></path>
+                            </svg>
+                            <h4 class="category__title-text">Danh Mục</h4>
+                        </div>
+                        <ul class="category__list">
+                            <li class="category__item">
+                                <a href="" class="category__item-link"
+                                    >Rubik 2x2</a
+                                >
+                            </li>
+                            <li class="category__item">
+                                <a href="" class="category__item-link"
+                                    >Rubik 3x3</a
+                                >
+                            </li>
+                            <li class="category__item">
+                                <a href="" class="category__item-link"
+                                    >Rubik 4x4</a
+                                >
+                            </li>
+                            <li class="category__item">
+                                <a href="" class="category__item-link"
+                                    >Rubik 5x5</a
+                                >
+                            </li>
+                            <li class="category__item">
+                                <a href="" class="category__item-link">Skewb</a>
+                            </li>
+                            <li class="category__item">
+                                <a href="" class="category__item-link"
+                                    >Pyraminx</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="product-wrap">
+                        <div class="filter hide-on-mobile-tablet">
+                            <div>
+                                <span>Sắp xếp theo</span>
+                                <button class="btn filter__btn-primary">
+                                    Phổ biến
+                                </button>
+                                <button class="btn filter__btn">
+                                    Mới nhất
+                                </button>
+                                <button class="btn filter__btn">
+                                    Bán chạy
+                                </button>
+                                <select name="" id="" class="btn filter__price">
+                                    <option
+                                        class="filter__price-option"
+                                        value=""
+                                        disabled
+                                        selected
+                                    >
+                                        Giá
+                                    </option>
+                                    <option
+                                        class="filter__price-option"
+                                        value="low-to-high"
+                                    >
+                                        Từ thấp tới cao
+                                    </option>
+                                    <option
+                                        class="filter__price-option"
+                                        value="high-to-low"
+                                    >
+                                        Từ cao tới thấp
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="pagination">
+                                <span class="pagination__text">
+                                    <span class="pagination__text--highlight">
+                                        1</span
+                                    >/2
+                                </span>
+                                <div>
+                                    <button
+                                        class="btn pagination__btn btn-focus"
+                                    >
+                                        <svg
+                                            class="pagination__btn-icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="#555555"
+                                        >
+                                            <path
+                                                d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <button class="btn pagination__btn">
+                                        <svg
+                                            class="pagination__btn-icon"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="#555555"
+                                        >
+                                            <path
+                                                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- sản phẩm product - list ---- -->
+                        <section class="grid-product">
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7qukw-lk9emyt77lja7c.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Khối rubik từ tính GAN x Swift Block
+                                            355S đồ chơi xếp hình giáo dục cho
+                                            trẻ em/ người mới bắt đầu 55x55x55mm
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>120.000</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 2k</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lt6kooubhdr19e.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Gan Monster Go Từ V3 3X3 Khối Giáo
+                                            Dục Mg Đồ Chơi Xếp Hình Trẻ Em Phiên
+                                            Bản 2023 Hướng Dẫn Không Bao Gồm
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>75.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-50%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 80</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lyfxdxsx1f3628.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Gan Skewb Khối lập phương tốc độ từ
+                                            tính Skweb Xếp hình Khối cắt góc
+                                            tích cực cho trẻ em Người lớn
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>415.000</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >5.0</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 5</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lwmn7k7fz8rnd1.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Khối rubik từ tính GAN x Swift Block
+                                            355S đồ chơi xếp hình giáo dục cho
+                                            trẻ em/ người mới bắt đầu 55x55x55mm
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>230.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-15%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 419</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/35375d7c704b760c4c55ce316d29d7af.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Dầu bôi trơn GAN cho khối lập phương
+                                            tốc độ
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>50.000</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span
+                                            class="sale__text--gift"
+                                            style="display: none"
+                                        >
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 105</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lmmn6llt3izoc3.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Đồ chơi khối rubik GAN 249 V2 kích
+                                            thước 2x2 hoặc 2x2x2 vui nhộn
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>235.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-28%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 166</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-ll050of1y2zi8f.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Khối Rubik gan 356 m 3x3 356m Ma
+                                            Thuật 2020
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>410.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-9%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 217</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lvya080pkroj48.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Gan 12 Maglev UV 3x3 Tốc Độ Gans 356
+                                            Đồ Chơi Xếp Hình Ma Thuật 2021
+                                            Flagship
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>880.000</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span
+                                            class="sale__text--gift"
+                                            style="display: none"
+                                        >
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >5.0</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 16</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-m0bhxpzvtwav6f.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Gan Swift Block 355S MG V3 Cube dành
+                                            cho người mới bắt đầu Đồ chơi giáo
+                                            dục xếp hình trí não cho trẻ mới bắt
+                                            đầu
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>178.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-13%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >5.0</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 5</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7ras8-m1hurkt5fub15b.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            GAN 356 ME 3X3 Đồ chơi giáo dục cạnh
+                                            tranh khối lập phương tốc độ từ tính
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>320.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-18%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 185</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7ras8-m1z087r0d157bb.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Túi lưu trữ GAN Cube Túi nhung Trò
+                                            chơi Túi bảo vệ đặc biệt Trẻ em Giáo
+                                            dục
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>52.000</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span
+                                            class="sale__text--gift"
+                                            style="display: none"
+                                        >
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >5.0</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 82</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7ras8-m1z7mpvcj0uj2e.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Gan Mega Sale Fan Hàng hóa Quà tặng
+                                            ngoại vi Tặng Chỉ không mua riêng
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>100.000</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span
+                                            class="sale__text--gift"
+                                            style="display: none"
+                                        >
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"></span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lmmn6llszbacf1.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Móc khóa khối rubik 330 3x3 Mini 1.2
+                                            Inch
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>95.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-44%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 132</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7qukw-lk9emyt77lja7c.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Thảm Huấn Luyện Khối Lập Phương
+                                            Thông Minh GAN
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>141.310</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >5.0</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 11</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lnsdvehef0kbfe.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Khối lập phương chống từ tính tốc độ
+                                            GAN 356 RS2 dành cho người mới bắt
+                                            đầu 3x3
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>280.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-38%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 2</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/fa463a2cf8a8d3bda8d42506d1b88923.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Gan Cube Cover WCA Competition Cube
+                                            Cover Không bao gồm khối lập phương
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>69.000</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span
+                                            class="sale__text--gift"
+                                            style="display: none"
+                                        >
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 156</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lzu740tfqooj9c.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Gan mega sale Quạt Bán Hàng
+                                            merchandise Món Quà Vĩnh Cửu Không
+                                            Mua Riêng Lẻ
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>42.824</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">30% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span
+                                            class="sale__text--gift"
+                                            style="display: none"
+                                        >
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 646</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lnld37htkn177b.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            GAN 356 Maglev mượt mà cho khối thi
+                                            đấu 3x3 Khối tốc độ từ tính Cửa hàng
+                                            chính thức của GAN
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>570.000</span>
+                                            </div>
+                                            <div
+                                                class="price__discount"
+                                                style="display: none"
+                                            >
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >5.0</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 127</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lt0nl6ot133139.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Gan356 i Carry S Smart Cube 3x3
+                                            Speed Cube Theo dõi thông minh Bước
+                                            chuyển động thời gian với ứng dụng
+                                            CubeStation
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>540.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-36%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 70</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product__img">
+                                    <div class="product__img-prod">
+                                        <img
+                                            src="assets/img/content/product/cn-11134207-7r98o-lmmlj14359nm31.webp"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="product__img-wrap">
+                                        <img
+                                            src="assets/img/content/product/vn-11134258-7ras8-m1rh2v1sfwe723.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                                <div class="product__content">
+                                    <div class="product__content-title">
+                                        <h5>
+                                            <img
+                                                src="assets/img/content/product/a0842aa9294375794fd2.png"
+                                                alt=""
+                                            />
+                                            Khối Rubik Kim Tự Tháp Có Nam Châm
+                                        </h5>
+                                    </div>
+                                    <div class="product__content-price">
+                                        <div class="price">
+                                            <div class="price__current">
+                                                <span>₫</span>
+                                                <span>380.000</span>
+                                            </div>
+                                            <div class="price__discount">
+                                                <span>-3%</span>
+                                            </div>
+                                        </div>
+                                        <div class="price__freeship">
+                                            <img
+                                                src="assets/img/content/product/0c5d2726cbd71c93c23d.svg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="product__content-sale">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text">10% Giảm</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="-0.5 -0.5 4 16"
+                                            class="sale__svg"
+                                        >
+                                            <path
+                                                d="M4 0h-3q-1 0 -1 1a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3v0.333a1.2 1.5 0 0 1 0 3q0 1 1 1h3"
+                                                stroke-width="1"
+                                                transform=""
+                                                stroke="#F69113"
+                                                fill="#F69113"
+                                            ></path>
+                                        </svg>
+                                        <span class="sale__text--gift">
+                                            Mua để nhận quà
+                                        </span>
+                                    </div>
+                                    <div class="product__content-rating">
+                                        <div class="rating">
+                                            <div class="rating__star">
+                                                <img
+                                                    src="assets/img/content/product/d7099d3fd1dfdaf705ab.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <span class="rating__text"
+                                                >4.9</span
+                                            >
+                                        </div>
+                                        <div class="sold">
+                                            <span class="rating__text"
+                                                >Đã bán 22</span
+                                            >
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product__content-location"
+                                    ></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <aside class="shipping">
+                <div class="shipping-wrap">
+                    <div class="shipping__icon">
+                        <img
+                            src="assets/img/footer/b2f7ff179b548ee3.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="shipping__content">
+                        <h3>Miễn phí vận chuyển</h3>
+                        <p>Giao hàng miễn phí toàn quốc</p>
+                    </div>
+                </div>
+
+                <div class="shipping-wrap">
+                    <div class="shipping__icon">
+                        <img
+                            src="assets/img/footer/687238ae79c9a8df.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="shipping__content">
+                        <h3>Hàng chính hãng 100%</h3>
+                        <p>Đảm bảo hàng chính hãng hoặc hoàn tiền gấp đôi</p>
+                    </div>
+                </div>
+                <div class="shipping-wrap">
+                    <div class="shipping__icon">
+                        <img
+                            src="assets/img/footer/6ea863fe7fc5bfa5.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="shipping__content">
+                        <h3>Miễn phí vận chuyển</h3>
+                        <p>Giao hàng miễn phí toàn quốc</p>
+                    </div>
+                </div>
+            </aside>
+            <div class="auto-fit">
+                <div class="footer_main">
+                    <div class="service">
+                        <h5>CUSTOMER SERVICE</h5>
+                        <ul class="service__list">
+                            <li class="service__item">
+                                <a href="">Help Centre</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">Shopee Blog</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">Shopee Mall</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">How To Buy</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">How To Sell</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">Payment</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">Shopee Coins</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">Shipping</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">Return & Refund</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">Contact Us</a>
+                            </li>
+                            <li class="service__item">
+                                <a href="">Warranty Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <h5>ABOUT SHOPEE</h5>
+                        <ul class="about__list">
+                            <li class="about__item"><a href="">About Us</a></li>
+                            <li class="about__item">
+                                <a href="">Shopee Careers</a>
+                            </li>
+                            <li class="about__item">
+                                <a href="">Shopee Policies</a>
+                            </li>
+                            <li class="about__item">
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li class="about__item">
+                                <a href="">Shopee Mall</a>
+                            </li>
+                            <li class="about__item">
+                                <a href="">Seller Centre</a>
+                            </li>
+                            <li class="about__item">
+                                <a href="">Flash Deals</a>
+                            </li>
+                            <li class="about__item">
+                                <a href="">Shopee Ambassador Programme</a>
+                            </li>
+                            <li class="about__item">
+                                <a href="">Media Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="payment">
+                        <h5>PAYMENT</h5>
+                        <ul class="payment__list">
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/d4bbea4570b93bfd5fc652ca82a262a8.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/a0a9062ebe19b45c1ae0506f16af5c16.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/38fd98e55806c3b2e4535c4e4a6c4c08.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/bc2a874caeee705449c164be385b796c.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/2c46b83d84111ddc32cfd3b5995d9281.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/5e3f0bee86058637ff23cfdf2e14ca09.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/9263fa8c83628f5deff55e2a90758b06.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/0217f1d345587aa0a300e69e2195c492.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                        <h5>LOGISTICS</h5>
+                        <ul class="payment__list">
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/vn-11134258-7ras8-m20rc1wk8926cf.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/vn-50009109-64f0b242486a67a3d29fd4bcf024a8c6.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/59270fb2f3fbb7cbc92fca3877edde3f.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/957f4eec32b963115f952835c779cd2c.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/0d349e22ca8d4337d11c9b134cf9fe63.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/3900aefbf52b1c180ba66e5ec91190e5.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/6e3be504f08f88a15a28a9a447d94d3d.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/0b3014da32de48c03340a4e4154328f6.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="payment__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/vn-50009109-ec3ae587db6309b791b78eb8af6793fd.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="followus">
+                        <h5>FOLLOW US</h5>
+                        <ul class="followus__list">
+                            <li class="followus__item">
+                                <a href="">
+                                    <svg
+                                        class="followus__icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M15.4024 21V14.0344H17.7347L18.0838 11.3265H15.4024V9.59765C15.4024 8.81364 15.62 8.27934 16.7443 8.27934L18.1783 8.27867V5.85676C17.9302 5.82382 17.0791 5.75006 16.0888 5.75006C14.0213 5.75006 12.606 7.01198 12.606 9.32952V11.3265H10.2677V14.0344H12.606V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15.4024Z"
+                                        ></path>
+                                    </svg>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li class="followus__item">
+                                <a href="">
+                                    <svg
+                                        class="followus__icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M13.0281 2.00073C14.1535 2.00259 14.7238 2.00855 15.2166 2.02322L15.4107 2.02956C15.6349 2.03753 15.8561 2.04753 16.1228 2.06003C17.1869 2.1092 17.9128 2.27753 18.5503 2.52503C19.2094 2.7792 19.7661 3.12253 20.3219 3.67837C20.8769 4.2342 21.2203 4.79253 21.4753 5.45003C21.7219 6.0867 21.8903 6.81337 21.9403 7.87753C21.9522 8.1442 21.9618 8.3654 21.9697 8.58964L21.976 8.78373C21.9906 9.27647 21.9973 9.84686 21.9994 10.9723L22.0002 11.7179C22.0003 11.809 22.0003 11.903 22.0003 12L22.0002 12.2821L21.9996 13.0278C21.9977 14.1532 21.9918 14.7236 21.9771 15.2163L21.9707 15.4104C21.9628 15.6347 21.9528 15.8559 21.9403 16.1225C21.8911 17.1867 21.7219 17.9125 21.4753 18.55C21.2211 19.2092 20.8769 19.7659 20.3219 20.3217C19.7661 20.8767 19.2069 21.22 18.5503 21.475C17.9128 21.7217 17.1869 21.89 16.1228 21.94C15.8561 21.9519 15.6349 21.9616 15.4107 21.9694L15.2166 21.9757C14.7238 21.9904 14.1535 21.997 13.0281 21.9992L12.2824 22C12.1913 22 12.0973 22 12.0003 22L11.7182 22L10.9725 21.9993C9.8471 21.9975 9.27672 21.9915 8.78397 21.9768L8.58989 21.9705C8.36564 21.9625 8.14444 21.9525 7.87778 21.94C6.81361 21.8909 6.08861 21.7217 5.45028 21.475C4.79194 21.2209 4.23444 20.8767 3.67861 20.3217C3.12278 19.7659 2.78028 19.2067 2.52528 18.55C2.27778 17.9125 2.11028 17.1867 2.06028 16.1225C2.0484 15.8559 2.03871 15.6347 2.03086 15.4104L2.02457 15.2163C2.00994 14.7236 2.00327 14.1532 2.00111 13.0278L2.00098 10.9723C2.00284 9.84686 2.00879 9.27647 2.02346 8.78373L2.02981 8.58964C2.03778 8.3654 2.04778 8.1442 2.06028 7.87753C2.10944 6.81253 2.27778 6.08753 2.52528 5.45003C2.77944 4.7917 3.12278 4.2342 3.67861 3.67837C4.23444 3.12253 4.79278 2.78003 5.45028 2.52503C6.08778 2.27753 6.81278 2.11003 7.87778 2.06003C8.14444 2.04816 8.36564 2.03847 8.58989 2.03062L8.78397 2.02433C9.27672 2.00969 9.8471 2.00302 10.9725 2.00086L13.0281 2.00073ZM12.0003 7.00003C9.23738 7.00003 7.00028 9.23956 7.00028 12C7.00028 14.7629 9.23981 17 12.0003 17C14.7632 17 17.0003 14.7605 17.0003 12C17.0003 9.23713 14.7607 7.00003 12.0003 7.00003ZM12.0003 9.00003C13.6572 9.00003 15.0003 10.3427 15.0003 12C15.0003 13.6569 13.6576 15 12.0003 15C10.3434 15 9.00028 13.6574 9.00028 12C9.00028 10.3431 10.3429 9.00003 12.0003 9.00003ZM17.2503 5.50003C16.561 5.50003 16.0003 6.05994 16.0003 6.74918C16.0003 7.43843 16.5602 7.9992 17.2503 7.9992C17.9395 7.9992 18.5003 7.4393 18.5003 6.74918C18.5003 6.05994 17.9386 5.49917 17.2503 5.50003Z"
+                                        ></path>
+                                    </svg>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li class="followus__item">
+                                <a href="">
+                                    <svg
+                                        class="followus__icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z"
+                                        ></path>
+                                    </svg>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="app">
+                        <h5>SHOPEE APP DOWNLOAD</h5>
+                        <div class="app__wrapper">
+                            <li class="app__item">
+                                <a href="">
+                                    <img
+                                        src="assets/img/footer/a5e589e8e118e937dc660f224b9a1472.png"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <ul class="app__list">
+                                <li class="app__item">
+                                    <a href="">
+                                        <img
+                                            src="assets/img/footer/ad01628e90ddf248076685f73497c163.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </li>
+                                <li class="app__item">
+                                    <a href="">
+                                        <img
+                                            src="assets/img/footer/ae7dced05f7243d0f3171f786e123def.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </li>
+                                <li class="app__item">
+                                    <a href="">
+                                        <img
+                                            src="assets/img/footer/35352374f39bdd03b25e7b83542b2cb0.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

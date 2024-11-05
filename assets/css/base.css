@@ -1,0 +1,109 @@
+:root {
+    --color-icons: #ffffff;
+
+    --color-white: #fff;
+    --color-black: #000;
+
+    --color-primary: #d0011b;
+
+    --color-background-footer: #fbfbfb;
+    --color-background-footer2: #f5f5f5;
+    --color-background-content: #fbfbfb;
+    --color-background-header: #d0011b;
+    --color-border: rgba(0, 0, 0, 0.06);
+
+    --text--color-price: #ee4d2d;
+
+    --text-color-primary: #333333;
+    --text-color-secondary: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* effect */
+@keyframes zoomOut {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        transform: rotate(-200deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
