@@ -4,9 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .auto-fit {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+#content {
+    flex: 1;
 }
 
 #content .auto-fit {

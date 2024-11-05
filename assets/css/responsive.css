@@ -8,6 +8,38 @@
         display: block;
     }
 
+    #header .searchbar {
+        position: fixed;
+        top: 62px;
+        left: 0;
+        right: 0;
+        margin: 0;
+        width: 100%;
+        z-index: 3;
+        border: 3px solid rgba(0, 0, 0, 0.1);
+        transition: transform linear 0.3s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #header #search-checkbox:checked ~ .searchbar {
+        display: flex;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(20px);
+    }
+
+    #header .searchbar__history {
+        position: fixed;
+        top: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    #header .sortbar__item-btn {
+        font-size: 0.7rem;
+    }
+
     #content {
         margin: 12px;
     }
