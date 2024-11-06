@@ -6,6 +6,7 @@
 
 body {
     display: flex;
+    width: 100%;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -425,6 +426,10 @@ body {
     color: var(--color-icons);
 }
 
+.menu-mt {
+    display: none;
+}
+
 /* content */
 #content .products {
     display: grid;
@@ -433,6 +438,11 @@ body {
 }
 
 /* danh muc  sidebar*/
+
+.mobile-category {
+    display: none;
+}
+
 .category {
 }
 .category__title {

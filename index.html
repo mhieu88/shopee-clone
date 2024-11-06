@@ -170,16 +170,18 @@
                     <!-- menu--mobile-tablet -->
                     <div class="header-top-left">
                         <div class="menu">
-                            <svg
-                                class="menu__icon"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                            >
-                                <path
-                                    d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
-                                ></path>
-                            </svg>
+                            <label for="menu-checkbox" class="menu-label">
+                                <svg
+                                    class="menu__icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
+                                    ></path>
+                                </svg>
+                            </label>
                         </div>
                         <div class="search">
                             <label for="search-checkbox" class="search-label">
@@ -378,6 +380,59 @@
             </div>
         </header>
 
+        <!-- mobile menu -->
+        <input type="checkbox" hidden id="menu-checkbox" />
+        <div class="menu-mt">
+            <label for="menu-checkbox" class="menu-mt-overlay"></label>
+            <section class="menu-mobile-tablet">
+                <label for="menu-checkbox" class="menu-mt-close">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="menu-mt-close__icon"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M6 18 18 6M6 6l12 12"
+                        />
+                    </svg>
+                </label>
+                <ul class="menu-mt__list">
+                    <li class="menu-mt__item">
+                        <a href="" class="menu-mt__link"> Trang chủ </a>
+                    </li>
+                    <li class="menu-mt__item">
+                        <a href="" class="menu-mt__link"> Tải ứng dụng </a>
+                    </li>
+                    <li class="menu-mt__item">
+                        <a href="" class="menu-mt__link"> Kết nối </a>
+                    </li>
+                    <li class="menu-mt__item">
+                        <a href="" class="menu-mt__link"> Thông báo </a>
+                    </li>
+                    <li class="menu-mt__item">
+                        <a href="" class="menu-mt__link"> Hỗ trợ </a>
+                    </li>
+                    <li class="menu-mt__item">
+                        <a href="" class="menu-mt__link"> Ngôn ngữ </a>
+                        <ul style="display: none">
+                            <li><a href="">Tiếng Việt</a></li>
+                            <li><a href="">English</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-mt__item">
+                        <a href="" class="menu-mt__link"> Đăng xuất </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- mobile menu - end -->
+
         <main id="content">
             <div class="auto-fit">
                 <!-- <section class="grid-store">
@@ -409,7 +464,71 @@
                     <div class="social-stats hide-on-mobile"></div>
                 </section>
             </section> -->
-                <nav></nav>
+                <nav class="mobile-category">
+                    <ul class="mobile-category__list">
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện íchDụng cụ & Thiết bị
+                                tiện íchDụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                        <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link"
+                                >Dụng cụ & Thiết bị tiện ích</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
                 <div class="products">
                     <nav class="category hide-on-mobile-tablet">
                         <div class="category__title">
